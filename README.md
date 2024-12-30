@@ -1,8 +1,8 @@
-## Readme
+## README
 
-# to manually flash a hex file to an arduino pro micro
-# double tap the reset button and then quickly
+# Manually flash a hex file to the arduino pro micro containing the vial binary 
 ```bash
+# double tap the reset button and then quickly
 avrdude -p m32u4 -c avr109 -P /dev/ttyACM0 -b 57600 -D -U flash:w:rev57lp.hex:i
 ```
 
